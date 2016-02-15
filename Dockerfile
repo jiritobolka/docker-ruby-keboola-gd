@@ -7,4 +7,4 @@ RUN yum -y install ruby-devel
 RUN yum -y install git
 RUN yum -y install rubygems
 RUN gem install rest_client
-RUN gem install gooddata -v 0.6.24
+RUN sudo gem install gooddata -v 0.6.24
